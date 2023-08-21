@@ -1,0 +1,34 @@
+body {
+    background-color: #1E1E1E;
+}
+
+#board{
+    margin: 0 auto;
+    border: grey solid 2px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 10px;
+    height: 10px;
+    border: grey solid 2px;
+    color: grey;
+}
+
+#buttons{
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+}
+
+#title {
+    display: flex;
+}
